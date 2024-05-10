@@ -1,0 +1,344 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+@media screen and (min-width:992px) {
+	.posht {
+		height: 100px;
+		width: 190px;
+		margin-top: 80px;
+	}
+}
+@media screen and (max-width:992px) {
+	.hero-title {
+		height: 130px;
+	}
+	.posht {
+		height: 100px;
+		width: 190px;
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width:768px) {
+	.hero-title {
+		height: 140px;
+	}
+	.posht {
+		height: 100px;
+		width: 190px;
+		margin-top: 20px;
+	}
+	.header__style , .box , .part__right , .part__left{
+		width: 0;
+		height: 0;
+		padding: 0;
+		margin: 0;
+		position: absolute;
+	}
+}
+@font-face {
+	font-family: Vazirmatn-h1;
+	src: url(../sorce/font/web-font-vazir/Vazirmatn-Bold.woff2);
+}
+@font-face {
+	font-family: Sahel;
+	src: url(../sorce/font/web-font-sahel/Sahel-Bold-FD.woff2);
+}
+@font-face {
+	font-family: Samim;
+	src: url(../sorce/font/web-font-samim/Samim-Medium-FD.woff2);
+}
+@font-face {
+	font-family: dm-sans;
+	src: url(../sorce/font/web-font-dm-sans/DMSans-Regular.woff2);
+}
+body {
+	background-color: rgb(246, 247, 248);
+}
+li {
+	list-style-type: none;
+	display: inline-block;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+i {
+	font-size: 1em;
+}
+p {
+	display: inline;
+	font-family: Samim;
+	font-size: 16px;
+	color: rgb(63, 65, 65);
+	margin: 0;
+}
+figure {
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	display: block;
+	text-decoration: none;
+	cursor: pointer;
+	color: #c5c8c9 !important;
+	transition: ease 200ms;
+}
+.cards a {
+	color: #000 !important;
+}
+.bg {
+	background-color: wheat;
+}
+.titr-2 {
+	font-family: Vazirmatn-h1;
+	font-size: 19px;
+}
+.titr-5e {
+	font-family: dm-sans;
+}
+.titr-6 {
+	font-family: Vazirmatn-h1;
+	font-size: 19px;
+	color: #f4ebeb !important;
+}
+.header__style {
+	background-color: #1a2c3a;
+}
+.part__right {
+	float: right;
+}
+.part__left {
+	float: left;
+}
+.text-uppercase {
+	font-size: 10px;
+}
+.part__right a {
+	margin-left: 1rem;
+}
+.part__left a {
+	margin-right: 1rem;
+}
+a:hover {
+	color: rgb(0, 150, 169) !important;
+}
+.navbar {
+	background-color: #1a2c3a;
+}
+.envelop-img {
+	width: 30px;
+	height: 25px;
+	vertical-align: -8px !important;
+	display: inline-block;
+}
+.invite {
+    width: 144px;
+ background-color: pink;
+ display: flex;
+ align-items: center;
+ border-radius: 7px;
+    overflow: hidden;
+    position: relative;
+}
+.sign__in{
+    width: 72px;
+    height: 100%;
+    background-color:#72bffd ;
+    position: absolute;
+    left: 0px;
+    z-index:0;
+    transition: all ease 800ms;
+    color: rgb(68, 68, 68) !important;
+}
+.sign__up{
+    width: 72px;
+    height: 100%;
+    background-color:#6b8eaa ; 
+    position: absolute;
+    right:  0px;
+    z-index: 1;
+    transition: all ease 800ms;
+    
+}
+ .sign__in:hover{
+    z-index: 1;
+    width: 90px;
+    color: rgb(48, 48, 48) !important;
+    background-color:#b1dcff ;
+}
+.sign__up:hover{
+    z-index: 1;
+    width: 100px;
+    color: #ececec !important; 
+    background-color:#3d6586 ;
+}
+.sign{
+    text-align: center;
+    
+    line-height: 35px;
+    
+}
+
+
+.navbar-brand {
+	padding: 0;
+	margin: 0;
+	width: 10%;
+}
+.box {
+	position: relative;
+	font-size: 12px;
+}
+.posht {
+	position: absolute;
+}
+.madar {
+	position: absolute;
+	width: 90%;
+	background-color: rgb(247, 162, 58);
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.darpoosh {
+	position: absolute;
+	width: 100%;
+}
+.paper {
+	background-color: rgb(251, 240, 202);
+	width: 80%;
+	height: 50%;
+	margin-top: 15%;
+	margin-right: 10%;
+	transition: ease-in 400ms 200ms;
+	border-radius: 2px;
+	box-shadow: 0px -2px 24px 5px rgba(0, 0, 0, 0.21), 0px -4px 9px -3px rgba(156, 156, 156, 1);
+}
+.black-space {
+	border: 1px solid #000;
+	background-color: rgb(73, 69, 69);
+	width: 96%;
+	height: 50%;
+	position: absolute;
+	bottom: 1px;
+	margin: 0px 2px 0px 2px;
+}
+.top {
+	width: 100%;
+	clip-path: polygon(100% 0, 99% 10%, 98% 15%, 95% 19%, 50% 60%, 5% 19%, 2% 15%, 1% 10%, 0 0);
+	background: rgb(0, 162, 255);
+	background: linear-gradient(to bottom, rgb(119, 231, 239) 1%, rgb(119, 180, 216) 99%);
+	position: absolute;
+	top: 0px;
+	perspective: 1000px;
+	transform-origin: top center;
+	transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+	z-index: 1;
+}
+.left {
+	width: 99%;
+	clip-path: polygon(0% 1%, 49% 50%, 0% 100%);
+	background: rgb(0, 162, 255);
+	background: linear-gradient(135deg, rgb(119, 231, 239) 1%, rgb(119, 180, 216) 45%);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.right {
+	width: 96%;
+	clip-path: polygon(100% 0, 50% 50%, 100% 100%);
+	background: rgb(0, 162, 255);
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background: linear-gradient(45deg, rgb(119, 180, 216) 58%, rgb(119, 231, 239) 99%);
+}
+.bottom {
+	width: 99%;
+	clip-path: polygon(0 100%, 50% 50%, 100% 100%);
+	position: absolute;
+	bottom: 0px;
+	background: rgb(0, 162, 255);
+	background: linear-gradient(to bottom, rgb(52, 156, 211) 49%, rgb(46, 194, 232) 100%);
+}
+.madar, .darpoosh, .top, .left, .right, .bottom {
+	height: 100%;
+}
+.madar:hover .top {
+	height: 120%;
+	width: 98%;
+	clip-path: polygon(100% 0, 99% 10%, 98% 15%, 95% 19%, 50% 60%, 5% 19%, 2% 15%, 1% 10%, 0 0);
+	transform: rotateX(-160deg);
+	background: linear-gradient(to bottom, rgb(222, 103, 82) 0%, rgb(239, 176, 117) 37%, rgb(239, 176, 117) 100%);
+}
+.madar:hover .left {
+	width: 100%;
+	clip-path: polygon(0% 1%, 49% 53%, 0% 99%);
+	background: linear-gradient(45deg, rgb(243, 171, 97) 16%, rgb(243, 171, 97) 16%, rgb(222, 103, 82) 70%);
+}
+.madar:hover .right {
+	width: 100%;
+	clip-path: polygon(100% 1%, 51% 53%, 100% 99%);
+	background: linear-gradient(135deg, rgb(222, 103, 82) 34%, rgb(243, 171, 97) 86%);
+}
+.madar:hover .bottom {
+	width: 100%;
+	height: 100%;
+	clip-path: polygon(0 100%, 50% 55%, 100% 100%);
+	background: radial-gradient(ellipse at center, rgb(222, 103, 82) 1%, rgb(243, 171, 97) 71%);
+}
+.madar:hover .black-space {
+	height: 45%;
+}
+.madar:hover .paper {
+	margin-top: 5%;
+}
+.left, .right, .bottom, .black-space {
+	transition: all 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.madar:hover {
+	transform: scale(1.03);
+}
+.hero-img {
+	animation: customAni 3s ease-in-out 0s infinite alternate both;
+}
+@keyframes customAni {
+	0% {
+		transform: translateY(-0px);
+	}
+	100% {
+		transform: translateY(-20px);
+	}
+}
+.ltsgo {
+	/* position: absolute; */
+}
+.box1 {
+	width: 15px;
+	height: 15px;
+	background-color: rgb(155, 200, 218);
+	border-radius: 4px;
+}
+.about {
+	border-radius: 10px;
+	background-color: #85bce7;
+}
+.card {
+	background-color: #85bce7;
+	overflow: hidden;
+}
+.card img {
+	transition: ease 200ms;
+}
+.card:hover img {
+	transform: scale(1.05);
+}
+.footer {
+	background-color: #1a2c3a;
+}
+.footer p {
+	color: #f4ebeb;
+}
+.bd {
+	border: 1px solid #000;
+}

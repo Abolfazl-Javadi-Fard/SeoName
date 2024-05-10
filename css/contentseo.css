@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+@font-face {
+    font-family: Vazirmatn-h1;
+    src: url(../sorce/font/web-font-vazir/Vazirmatn-Bold.woff2);
+}
+@font-face {
+    font-family: Sahel;
+    src: url(../sorce/font/web-font-sahel/Sahel-Bold-FD.woff2);
+}
+@font-face {
+    font-family: Samim;
+    src: url(../sorce/font/web-font-samim/Samim-Medium-FD.woff2);
+}
+body{
+    background-color: rgb(246, 247, 248);
+}
+li{
+    list-style-type: none;
+}
+ul , li , i {
+    display: flex;
+}
+.bd{
+    border: 1px solid #f0e8e8;
+}
+p {
+    display: inline;
+    font-family: Samim;
+    font-size: 16px;
+    color: rgb(63, 65, 65);
+}
+figure{
+    margin: 50px 0px 50px 0px;
+    padding: 0px;
+}
+a{
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    color: #c5c8c9 !important;
+    transition: ease 200ms;
+}
+h2{
+    margin-top: 30px;
+}
+h1{
+    margin: auto;
+}
+.radius{
+    border-radius: 12px;
+    box-shadow: 0px 0px 70px -9px rgba(0,150,169,0.89);
+    margin: 30px 0px 30px 0px;
+    padding: 20px 90px;
+  }
+.titr-1{
+    font-family: Vazirmatn-h1;
+    font-size: 24px;
+}
+.titr-2{
+    font-family: Vazirmatn-h1;
+    font-size: 19px;
+}
+.titr-5e{
+    font-family: 'DM Sans', sans-serif;
+}
+.titr-6{
+    font-family: Vazirmatn-h1;
+    font-size: 19px;
+    color: #f4ebeb !important;
+}
+.header-style{
+    background-color: #1a2c3a;
+}
+.nav-style{
+    background-color: #1a2c3a;
+}
+a:hover{
+    color: rgb(0, 150, 169) !important;
+}
+.text-break{
+    display: block;
+}
+.navbar{
+    background-color: #1a2c3a;
+}
+.footer{
+    background-color: #1a2c3a;
+}
+.footer p {
+    color: #f4ebeb;
+}
